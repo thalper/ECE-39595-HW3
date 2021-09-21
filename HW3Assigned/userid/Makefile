@@ -6,14 +6,14 @@ CC = g++
 INCLUDE = 
 LIBS = 
 CFLAGS = -Wall -g
-EXECUTABLE = HW2
+EXECUTABLE = HW4
 COMMANDLINE =
 
 .PHONY : run
 run : $(EXECUTABLE)
 	./$(EXECUTABLE) $(COMMANDLINE)
 
-cleanmake : clean HW1
+cleanmake : clean HW4
 
 .PHONY : $(EXECUTABLE)
 $(EXECUTABLE) :  $(OBJS)
